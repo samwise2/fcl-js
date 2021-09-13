@@ -1258,7 +1258,6 @@ A utility builder to be used with other builders to pass in arguments with a val
 
 ```javascript
 import * as fcl from "@onflow/fcl";
-
 await fcl
   .send([
     fcl.script`
@@ -1278,7 +1277,7 @@ await fcl
 
 ### Template Builders
 
-> ⚠️**_Reccomended:_** The following functionality is simplified by [`fcl.query({...options}`](#query) or [`fcl.mutate({...options})`](#mutate) and is reccomended to use over the functions below.
+> ⚠️**_Recommended:_** The following functionality is simplified by [`fcl.query({...options}`](#query) or [`fcl.mutate({...options})`](#mutate) and is reccomended to use over the functions below.
 
 ## `script`
 
